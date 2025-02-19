@@ -1,5 +1,5 @@
 import { siteConfig } from '@/lib/config'
-import xiaohongshuIcon from '@/public/icons/social-xiaohongshu.svg'
+import xiaohongshuIcon from '@/public/svg/xiaohongshu.svg'
 
 /**
  * 社交联系方式按钮组
