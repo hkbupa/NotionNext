@@ -70,7 +70,7 @@ const SocialButton = () => {
             rel='noreferrer'
             title={'instagram'}
             href={siteConfig('CONTACT_INSTAGRAM')}>
-            <i className='fab fa-instagram transform hover:scale-125 duration-150' />
+            <i className='fa-brands fa-square-instagram transform hover:scale-125 duration-150' />
           </a>
         )}
         {JSON.parse(siteConfig('ENABLE_RSS')) && (
