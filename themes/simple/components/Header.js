@@ -49,7 +49,7 @@ export default function Header(props) {
           {siteConfig('DESCRIPTION')}
         </div>
         </div>
-        
+        <br/>
         </div>  
       </div>
     </header>
