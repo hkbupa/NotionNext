@@ -22,18 +22,18 @@ export default function Header(props) {
                 priority={true}
                 src={siteInfo?.icon}
                 className='square'
-                width={150}
-                height={150}
+                width={180}
+                height={180}
                 alt={siteConfig('AUTHOR')}
               />
             </div>
 
             <div className='flex-col flex justify-center'>
               <div className='text-3xl font-semibold dark:text-white py-2 hover:scale-105 transform duration-200 text-left'>
-                香港浸會大學研究生會HKBUPA
+                香港浸會大學研究生會<br/>Hong Kong Baptist University Postgraduate Association
               </div>
               <div
-                className='font-light dark:text-white py-2 hover:scale-105 transform duration-200 text-left'
+                className='font-light dark:text-white py-2 hover:scale-102 transform duration-200 text-left'
                 dangerouslySetInnerHTML={{
                   __html: siteConfig('SIMPLE_LOGO_DESCRIPTION', null, CONFIG)
                 }}
