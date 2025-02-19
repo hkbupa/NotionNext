@@ -3,8 +3,8 @@ const CONFIG = {
   SIMPLE_LOGO_IMG: '/Logo.webp',
   SIMPLE_TOP_BAR: true, // 显示顶栏
   SIMPLE_TOP_BAR_CONTENT: process.env.NEXT_PUBLIC_THEME_SIMPLE_TOP_TIPS || '',
-  SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>Hong Kong Baptist University Postgraduate Association (HKBUPA), the only official representative of all postgraduate students.<br/>香港浸會大學研究生會（浸大研會），香港浸會大學全體研究生唯一官方代表。</div>',
-
+  SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div style="text-align: left;">Hong Kong Baptist University Postgraduate Association (HKBUPA), the only official representative of all postgraduate students.<br/>香港浸會大學研究生會（浸大研會），香港浸會大學全體研究生唯一官方代表。</div>',
+  
   SIMPLE_AUTHOR_LINK: process.env.NEXT_PUBLIC_AUTHOR_LINK || '#',
 
   SIMPLE_POST_AD_ENABLE: process.env.NEXT_PUBLIC_SIMPLE_POST_AD_ENABLE || false, // 文章列表是否插入广告
