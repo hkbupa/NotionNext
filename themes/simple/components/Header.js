@@ -46,8 +46,11 @@ export default function Header(props) {
           <SocialButton />
         </div>
         <div className='text-xs mt-4 text-gray-500 dark:text-gray-300'>
-          {siteConfig('DESCRIPTION')}<br/>
+          {siteConfig('DESCRIPTION')}
         </div>
+        </div>
+        
+        </div>  
       </div>
     </header>
   )
