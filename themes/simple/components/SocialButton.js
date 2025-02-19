@@ -106,7 +106,7 @@ const SocialButton = () => {
             rel='noreferrer'
             title={'xiaohongshu'}
             href={siteConfig('CONTACT_XIAOHONGSHU')}>
-            <img src={xiaohongshuIcon} alt='xiaohongshu' className='transform hover:scale-125 duration-150' />
+            <img src='https://www.hkbu.edu.hk/content/dam/hongkongbaptistuniversity/hkbu-assets/icon/social/social-xiaohongshu.svg' alt='xiaohongshu' className='transform hover:scale-125 duration-150' />
           </a>
         )}
         {siteConfig('CONTACT_YOUTUBE') && (
