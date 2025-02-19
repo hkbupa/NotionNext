@@ -22,14 +22,14 @@ export default function Header(props) {
                 priority={true}
                 src={siteInfo?.icon}
                 className='square'
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 alt={siteConfig('AUTHOR')}
               />
             </div>
 
             <div className='flex-col flex justify-center'>
-              <div className='text-2xl font-serif dark:text-white py-2 hover:scale-105 transform duration-200 text-left'>
+              <div className='text-3xl font-semibold dark:text-white py-2 hover:scale-105 transform duration-200 text-left'>
                 香港浸會大學研究生會HKBUPA
               </div>
               <div
