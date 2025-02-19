@@ -12,7 +12,7 @@ export default function Header(props) {
   const { siteInfo } = props
 
   return (
-    <header className='text-center justify-between items-center px-6 bg-white h-80 dark:bg-black relative z-10'>
+    <header className='text-center justify-between items-center px-6 bg-white h-100 dark:bg-black relative z-10'>
       <div className='float-none inline-block py-12'>
         <Link href='/'>
           {/* 可使用一张单图作为logo */}
@@ -22,8 +22,8 @@ export default function Header(props) {
                 priority={true}
                 src={siteInfo?.icon}
                 className='square'
-                width={180}
-                height={180}
+                width={160}
+                height={160}
                 alt={siteConfig('AUTHOR')}
               />
             </div>
@@ -48,9 +48,6 @@ export default function Header(props) {
         <div className='text-xs mt-4 text-gray-500 dark:text-gray-300'>
           {siteConfig('DESCRIPTION')}
         </div>
-        </div>
-        <br/>
-        </div>  
       </div>
     </header>
   )
