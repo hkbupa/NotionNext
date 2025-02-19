@@ -28,12 +28,12 @@ export default function Header(props) {
               />
             </div>
 
-            <div className='flex-col flex justify-center'>
+            <div className='flex-col flex justify-left'>
               <div className='text-2xl font-serif dark:text-white py-2 hover:scale-105 transform duration-200'>
                 {siteConfig('AUTHOR')}
               </div>
               <div
-                className='font-light dark:text-white py-2 hover:scale-105 transform duration-200 text-center'
+                className='font-light dark:text-white py-2 hover:scale-105 transform duration-200 text-left'
                 dangerouslySetInnerHTML={{
                   __html: siteConfig('SIMPLE_LOGO_DESCRIPTION', null, CONFIG)
                 }}
