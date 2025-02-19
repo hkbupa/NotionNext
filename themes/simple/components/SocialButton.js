@@ -100,15 +100,6 @@ const SocialButton = () => {
             <i className='fab fa-weixin transform hover:scale-125 duration-150' />
           </a>
         )}
-        {siteConfig('CONTACT_XIAOHONGSHU') && (
-          <a
-            target='_blank'
-            rel='noreferrer'
-            title={'xiaohongshu'}
-            href={siteConfig('CONTACT_XIAOHONGSHU')}>
-            <img src='https://www.hkbu.edu.hk/content/dam/hongkongbaptistuniversity/hkbu-assets/icon/social/social-xiaohongshu.svg' alt='xiaohongshu' className='transform hover:scale-125 duration-150' />
-          </a>
-        )}
         {siteConfig('CONTACT_YOUTUBE') && (
           <a
             target='_blank'
