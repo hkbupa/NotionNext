@@ -29,11 +29,11 @@ export default function Header(props) {
             </div>
 
             <div className='flex-col flex justify-center'>
-              <div className='text-2xl font-semibold dark:text-white py-2 hover:scale-105 transform duration-200 text-left'>
+              <div className='text-2xl font-semibold dark:text-white py-2 hover:scale-105 transform duration-200 text-left' style={{ fontSize: '2vw' }}>
                 香港浸會大學研究生會<br/>Postgraduate Association HKBU
               </div>
               <div
-                className='text-0.75xl font-light dark:text-white py-2 hover:scale-105 transform duration-200 text-left'
+                className='text-0.75xl font-light dark:text-white py-2 hover:scale-105 transform duration-200 text-left' style={{ fontSize: '2vw' }}
                 dangerouslySetInnerHTML={{
                   __html: siteConfig('SIMPLE_LOGO_DESCRIPTION', null, CONFIG)
                 }}
