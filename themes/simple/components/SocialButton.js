@@ -1,4 +1,5 @@
 import { siteConfig } from '@/lib/config'
+import xiaohongshuIcon from '@/public/icons/social-xiaohongshu.svg'
 
 /**
  * 社交联系方式按钮组
@@ -105,7 +106,7 @@ const SocialButton = () => {
             rel='noreferrer'
             title={'xiaohongshu'}
             href={siteConfig('CONTACT_XIAOHONGSHU')}>
-            <i className='i-simple-icons-xiaohongshu transform hover:scale-125 duration-150' />
+            <img src={xiaohongshuIcon} alt='xiaohongshu' className='transform hover:scale-125 duration-150' />
           </a>
         )}
         {siteConfig('CONTACT_YOUTUBE') && (
