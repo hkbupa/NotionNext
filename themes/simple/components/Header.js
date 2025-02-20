@@ -42,12 +42,7 @@ export default function Header(props) {
           </div>
         </Link>
 
-        <div className='flex justify-center'>
-          <SocialButton />
-        </div>
-        <div className='text-xs mt-4 text-gray-500 dark:text-gray-300'>
-          Official Website of Hong Kong Baptist University Postgraduate Association
-        </div>
+
       </div>
     </header>
   )
