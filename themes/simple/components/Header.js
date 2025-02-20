@@ -21,7 +21,9 @@ export default function Header(props) {
               <LazyImage
                 priority={true}
                 src={siteInfo?.icon}
-                className='square w-32 h-32'
+                className='square'
+                width={120}
+                height={120}
                 alt={siteConfig('AUTHOR')}
               />
             </div>
