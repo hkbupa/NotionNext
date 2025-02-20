@@ -12,12 +12,12 @@ export default function Header(props) {
   const { siteInfo } = props
 
   return (
-    <header className='text-center justify-between items-center px-6 bg-white h-80 dark:bg-black relative z-10 mb-10'>
+    <header className='text-center justify-between items-center px-6 bg-white h-80 dark:bg-black relative z-10'>
       <div className='float-none inline-block py-12'>
         <Link href='/'>
           {/* 可使用一张单图作为logo */}
-          <div className='flex space-x-6 justify-center'>
-            <div className='hover:rotate-0 hover:scale-110 transform duration-200 cursor-pointer justify-center items-center flex'>
+          <div className='float-none flex space-x-6 justify-center'>
+            <div className='float-none hover:rotate-0 hover:scale-110 transform duration-200 cursor-pointer justify-center items-center flex'>
               <LazyImage
                 priority={true}
                 src={siteInfo?.icon}
@@ -28,12 +28,12 @@ export default function Header(props) {
               />
             </div>
 
-            <div className='flex-col flex justify-center'>
-              <div className='text-xl font-medium dark:text-white py-1 hover:scale-105 transform duration-200 text-left'>
+            <div className='float-none flex-col flex justify-center'>
+              <div className='float-none text-xl font-medium dark:text-white py-1 hover:scale-105 transform duration-200 text-left'>
                 香港浸會大學研究生會<br/>Postgraduate Association HKBU
               </div>
               <div
-                className='text-sm font-light dark:text-white py-1 hover:scale-105 transform duration-200 text-left'
+                className='float-none text-sm font-light dark:text-white py-1 hover:scale-105 transform duration-200 text-left'
                 dangerouslySetInnerHTML={{
                   __html: siteConfig('SIMPLE_LOGO_DESCRIPTION', null, CONFIG)
                 }}
@@ -42,7 +42,7 @@ export default function Header(props) {
           </div>
         </Link>
 
-        <div className='flex justify-center'>
+        <div className='float-none flex justify-center'>
           <SocialButton />
         </div>
       </div>
