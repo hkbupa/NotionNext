@@ -8,7 +8,7 @@ import xiaohongshuIcon from '@/public/social-xiaohongshu.svg'
  */
 const SocialButton = () => {
   return (
-    <div className='w-52 justify-center flex-wrap flex my-2'>
+    <div className='w-64 justify-center flex-wrap flex my-2'>
       <div className='space-x-5 md:text-xl text-3xl text-gray-600 dark:text-gray-400 text-center'>
        {siteConfig('CONTACT_EMAIL') && (
           <a
