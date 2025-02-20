@@ -33,7 +33,7 @@ export default function Header(props) {
                 香港浸會大學研究生會<br/>Postgraduate Association HKBU
               </div>
               <div
-                className='text-lg font-light dark:text-white py-1 hover:scale-105 transform duration-200 text-left'
+                className='text-base font-light dark:text-white py-1 hover:scale-105 transform duration-200 text-left'
                 dangerouslySetInnerHTML={{
                   __html: siteConfig('SIMPLE_LOGO_DESCRIPTION', null, CONFIG)
                 }}
@@ -45,7 +45,7 @@ export default function Header(props) {
         <div className='flex justify-center'>
           <SocialButton />
         </div>
-        <div className='text-xs mt-4 py-1 text-gray-500 dark:text-gray-300'>
+        <div className='text-xs mt-4 text-gray-500 dark:text-gray-300'>
           Official Website of Hong Kong Baptist University Postgraduate Association
         </div>
       </div>
