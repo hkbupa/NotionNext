@@ -22,18 +22,18 @@ export default function Header(props) {
                 priority={true}
                 src={siteInfo?.icon}
                 className='square'
-                width={175}
-                height={175}
+                width={150}
+                height={150}
                 alt={siteConfig('AUTHOR')}
               />
             </div>
 
             <div className='flex-col flex justify-center'>
-              <div className='text-2xl font-semibold dark:text-white py-1 hover:scale-105 transform duration-200 text-left'>
+              <div className='text-xl font-medium dark:text-white py-1 hover:scale-105 transform duration-200 text-left'>
                 香港浸會大學研究生會<br/>Postgraduate Association HKBU
               </div>
               <div
-                className='text-base font-light dark:text-white py-1 hover:scale-105 transform duration-200 text-left'
+                className='text-sm font-light dark:text-white py-1 hover:scale-105 transform duration-200 text-left'
                 dangerouslySetInnerHTML={{
                   __html: siteConfig('SIMPLE_LOGO_DESCRIPTION', null, CONFIG)
                 }}
@@ -44,9 +44,6 @@ export default function Header(props) {
 
         <div className='flex justify-center'>
           <SocialButton />
-        </div>
-        <div className='text-xs mt-4 text-gray-500 dark:text-gray-300'>
-          Official Website of Hong Kong Baptist University Postgraduate Association
         </div>
       </div>
     </header>
