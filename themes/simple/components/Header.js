@@ -42,9 +42,7 @@ export default function Header(props) {
           </div>
         </Link>
 
-        <div className='float-none flex justify-center'>
-          <SocialButton />
-        </div>
+
       </div>
     </header>
   )
