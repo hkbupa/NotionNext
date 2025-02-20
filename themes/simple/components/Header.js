@@ -17,13 +17,11 @@ export default function Header(props) {
         <Link href='/'>
           {/* 可使用一张单图作为logo */}
           <div className='float-none flex space-x-6 justify-center'>
-            <div className='float-none hover:rotate-0 hover:scale-110 transform duration-200 cursor-pointer justify-center items-center flex'>
+            <div className='float-none hover:scale-110 transform duration-200 cursor-pointer justify-center items-center flex'>
               <LazyImage
                 priority={true}
                 src={siteInfo?.icon}
-                className='square'
-                width={150}
-                height={150}
+                className='square w-32 h-32'
                 alt={siteConfig('AUTHOR')}
               />
             </div>
