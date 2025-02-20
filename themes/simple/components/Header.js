@@ -12,7 +12,7 @@ export default function Header(props) {
   const { siteInfo } = props
 
   return (
-    <header className='text-center justify-between items-center px-6 bg-white h-80 dark:bg-black relative z-10'>
+    <header className='text-center justify-between items-center px-6 bg-white h-60 dark:bg-black relative z-10'>
       <div className='float-none inline-block py-12'>
         <Link href='/'>
           {/* 可使用一张单图作为logo */}
