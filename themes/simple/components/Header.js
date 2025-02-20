@@ -41,6 +41,9 @@ export default function Header(props) {
             </div>
           </div>
         </Link>
+        <div className='flex justify-center'>
+          <SocialButton />
+        </div>
 
 
       </div>
