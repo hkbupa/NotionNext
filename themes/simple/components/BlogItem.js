@@ -111,7 +111,7 @@ export const BlogItem = props => {
           </main>
         </article>
       </div>
-
+{/*註釋掉這個按鈕
       <div className='block'>
         <Link
           href={post.href}
@@ -120,6 +120,7 @@ export const BlogItem = props => {
           <i className='fa-solid fa-angle-right align-middle'></i>
         </Link>
       </div>
+      */}
     </div>
   )
 }
